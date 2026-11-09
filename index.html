@@ -235,28 +235,96 @@
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="reveal">
-      <h1>Contact <span>Me</span></h1>
+    <section id="contact" class="contact section reveal">
 
-      <form id="contact-form">
-        <input type="text" id="name" placeholder="Your Name" required>
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+        <p class="section-subtitle">
+          Have a project or opportunity in mind? I'd love to hear from you.
+        </p>
+      </div>
 
-        <input type="email" id="email" placeholder="Your Email" required>
+      <div class="contact-container">
 
-        <textarea id="message" placeholder="Your Message" required></textarea>
+        <div class="contact-info">
 
-        <button type="submit" class="btn">
-          Send Message
-        </button>
+          <h3>Let's talk!</h3>
 
-        <p id="form-status" role="status" aria-live="polite"></p>
-      </form>
+          <p class="contact-description">
+            I'm always interested in discussing new projects,
+            creative ideas and opportunities to learn and grow.
+            Feel free to reach out!
+          </p>
+
+          <div class="social-links">
+
+            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="Visit my GitHub profile">
+              <span class="social-icon">⌘</span>
+              <span>
+                <strong>GitHub</strong>
+                <small>Explore my projects</small>
+              </span>
+              <span class="social-arrow">↗</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener noreferrer"
+              class="social-link" aria-label="Visit my LinkedIn profile">
+              <span class="social-icon">in</span>
+              <span>
+                <strong>LinkedIn</strong>
+                <small>Connect with me</small>
+              </span>
+              <span class="social-arrow">↗</span>
+            </a>
+
+            <a href="mailto:YOUR_EMAIL@gmail.com" class="social-link" aria-label="Send me an email">
+              <span class="social-icon">✉</span>
+              <span>
+                <strong>Email</strong>
+                <small>Let's start a conversation</small>
+              </span>
+              <span class="social-arrow">↗</span>
+            </a>
+
+          </div>
+
+          <a href="resume.pdf" download class="btn btn-outline resume-btn">
+            ↓ Download My Resume
+          </a>
+
+        </div>
+
+        <form id="contact-form">
+
+          <h3>Send a Message</h3>
+
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" required>
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="btn">
+            Send Message →
+          </button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
     </section>
 
-    <footer>
-      <p>© 2026 Shivam Kumar Verma | All Rights Reserved</p>
-    </footer>
+  </main>
+
+  <footer>
+    <p>© 2026 Shivam Kumar Verma | All Rights Reserved</p>
+  </footer>
 
 </body>
 
